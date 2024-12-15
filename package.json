@@ -46,7 +46,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
     "prettify": "prettier --write .",
-    "predeploy": "yarn run build && cp ./build/index.html ./build/404.html",
+    "predeploy": "npm run build && cp index.html 404.html",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
