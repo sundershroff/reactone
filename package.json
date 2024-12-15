@@ -4,7 +4,7 @@
   "private": true,
   "author": "sunder",
   "description": "model",
-  "homepage": "https://sundershroff.github.io/material-kit-react/presentation",
+  "homepage": "https://sundershroff.github.io/react/presentation",
   "dependencies": {
     "@emotion/cache": "11.10.7",
     "@emotion/react": "11.10.6",
