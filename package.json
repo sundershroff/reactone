@@ -1,18 +1,10 @@
 {
-  "homepage": "https://sundershroff.github.io/react",
-  "name": "Website",
+  "name": "website",
   "version": "2.1.0",
   "private": true,
   "author": "sunder",
-  "license": "See license in https://www.creative-tim.com/license",
-  "description": "React version of Material Kit 2 by Creative Tim",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/ct-material-kit-react/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/ct-material-kit-react.git"
-  },
+  "description": "model",
+  "homepage": "https://sundershroff.github.io/material-kit-react/presentation",
   "dependencies": {
     "@emotion/cache": "11.10.7",
     "@emotion/react": "11.10.6",
@@ -23,19 +15,16 @@
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
-    "ajv": "^8.17.1",
-    "axios": "^1.7.9",
     "chroma-js": "2.4.2",
-    "core-js": "^3.39.0",
     "flatpickr": "4.6.13",
     "prop-types": "15.8.1",
-    "react": "^18.2.0",
+    "react": "18.2.0",
     "react-copy-to-clipboard": "5.1.0",
     "react-countup": "6.4.2",
-    "react-dom": "^18.2.0",
+    "react-dom": "18.2.0",
     "react-flatpickr": "3.10.13",
     "react-router-dom": "6.10.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "react-syntax-highlighter": "15.5.0",
     "web-vitals": "3.3.1"
   },
@@ -46,7 +35,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
     "prettify": "prettier --write .",
-    "predeploy": "npm run build && cp ./build/index.html ./build/404.html",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -68,10 +57,14 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint": "8.38.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
     "gh-pages": "^6.1.1",
-    "prettier": "^2.7.1"
+    "prettier": "2.8.7"
   }
 }
