@@ -3,7 +3,7 @@
   "name": "Website",
   "version": "2.1.0",
   "private": true,
-  "author": "Creative Tim",
+  "author": "sunder",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "React version of Material Kit 2 by Creative Tim",
   "bugs": {
@@ -47,7 +47,7 @@
     "lint": "eslint ./src",
     "prettify": "prettier --write .",
     "predeploy": "npm run build && cp ./build/index.html ./build/404.html",
-    "deploy": "main -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
