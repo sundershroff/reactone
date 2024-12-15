@@ -4,7 +4,7 @@
   "private": true,
   "author": "sunderavel",
   "description": "model",
-  "homepage": "https://sundershroff.github.io/reactproject/presentation", 
+  "homepage": "https://sundershroff.github.io/reactproject", 
   "dependencies": {
     "@emotion/cache": "11.10.7",
     "@emotion/react": "11.10.6",
