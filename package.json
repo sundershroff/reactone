@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "2.1.0",
-  "private": true,
+  "public": true,
   "author": "sunderavel",
   "description": "model",
   "homepage": "https://sundershroff.github.io/reactone",
