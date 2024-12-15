@@ -2,9 +2,9 @@
   "name": "website",
   "version": "2.1.0",
   "private": true,
-  "author": "sunder",
+  "author": "sunderavel",
   "description": "model",
-  "homepage": "https://sundershroff.github.io/react/presentation",
+  "homepage": "https://sundershroff.github.io/reactproject", 
   "dependencies": {
     "@emotion/cache": "11.10.7",
     "@emotion/react": "11.10.6",
