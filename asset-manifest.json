@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/reactone/static/js/main.69488e47.js",
+    "main.js": "/reactone/static/js/main.a3506e0d.js",
     "static/media/rotateback.jpg": "/reactone/static/media/rotateback.1eafbf908b16551d0dce.jpg",
     "static/media/rotatingfront.jpeg": "/reactone/static/media/rotatingfront.e89937f67338c9727e83.jpeg",
     "static/media/jpg": "/reactone/static/media/08674abccf6da23f5fa58c66311346cf.5ea91a117bc08a37f885.jpg",
     "index.html": "/reactone/index.html",
-    "main.69488e47.js.map": "/reactone/static/js/main.69488e47.js.map"
+    "main.a3506e0d.js.map": "/reactone/static/js/main.a3506e0d.js.map"
   },
   "entrypoints": [
-    "static/js/main.69488e47.js"
+    "static/js/main.a3506e0d.js"
   ]
 }
