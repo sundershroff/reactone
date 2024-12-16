@@ -110,6 +110,7 @@ const routes = [
   {
     name: "Home",
     icon: <Icon>home</Icon>,
+    color: "gold",
     columns: 1,
     rowsPerColumn: 2,
     route: "/pages/landing-pages/about-us",

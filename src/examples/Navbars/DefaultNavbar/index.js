@@ -42,6 +42,7 @@ import DefaultNavbarMobile from "examples/Navbars/DefaultNavbar/DefaultNavbarMob
 
 // Material Kit 2 React base styles
 import breakpoints from "assets/theme/base/breakpoints";
+// import style from "react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark";
 
 function DefaultNavbar({ brand, routes, transparent, light, action, sticky, relative, center }) {
   const [dropdown, setDropdown] = useState("");
@@ -463,8 +464,8 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
         position={relative ? "relative" : "absolute"}
         left={0}
         zIndex={3}
-        sx={({ palette: { transparent: transparentColor, white }, functions: { rgba } }) => ({
-          backgroundColor: transparent ? transparentColor.main : rgba(white.main, 0.8),
+        sx={({ palette: { transparent: transparentColor, black }, functions: { rgba } }) => ({
+          backgroundColor: transparent ? transparentColor.main : rgba(black.main, 0.8),
           backdropFilter: transparent ? "none" : `saturate(200%) blur(30px)`,
         })}
       >
@@ -551,7 +552,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
 // Setting default values for the props of DefaultNavbar
 DefaultNavbar.defaultProps = {
-  brand: "Luminous",
+  brand: "Lumiere",
   transparent: false,
   light: false,
   action: false,

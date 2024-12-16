@@ -80,7 +80,7 @@ export default {
   },
 
   dark: {
-    main: "#344767",
+    main: "gold",
     focus: "#2c3c58",
   },
 
@@ -108,8 +108,8 @@ export default {
     },
 
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "gold",
+      state: "gold",
     },
 
     success: {

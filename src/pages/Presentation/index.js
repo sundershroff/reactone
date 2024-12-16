@@ -45,6 +45,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/08674abccf6da23f5fa58c66311346cf.jpg";
+// import { CenterFocusStrong } from "@mui/icons-material";
 
 function Presentation() {
   return (
@@ -75,6 +76,7 @@ function Presentation() {
             <MKTypography
               variant="h1"
               color="white"
+              textAlign="center"
               mt={-6}
               mb={1}
               sx={({ breakpoints, typography: { size } }) => ({
@@ -105,7 +107,7 @@ function Presentation() {
           mx: { xs: 2, lg: 3 },
           mt: -8,
           mb: 4,
-          backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
+          backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 1),
           backdropFilter: "saturate(200%) blur(30px)",
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
